@@ -1,8 +1,7 @@
 body{
-    padding-top: 5%;
     height: auto;
 margin: auto ;
-padding-top:5%;
+padding-top:0%;
 font-size:1.2em;
 background-color: beige;
 }
@@ -35,66 +34,47 @@ background-color: beige;
     width: 15%;
 }
 
-.Home, .About , .Address , .Projects , .Skills , .Hobbies , .Contact {
+ .About , .Address , .Projects , .Skills , .Hobbies , .Contact {
   text-align: center;
   font-weight: 1000;
   font-size-adjust: inherit;
   background-color:lightcoral;
   font-size: 50px;
+  padding: 0.1em;
 }
-.h-item{
-border: 5px solid black;
-border-radius: 1px solid red;
-padding: 0.5em;
-text-align: center;
-border: 5px;
-font-size: 1em;
-width: 20%;
-background-color:lightcyan;
-margin: auto;
-width: 40%;
-}
- .a-item , .Add-item , .S-item , .Hob-item {
-    border: 5px dotted black;
-    border-radius: 1px dotted red;
-    padding: 0.5em;
-    text-align: center;
-    border: 5px;
+ .h-item , .a-item , .Add-item {
+     padding-top: 0.2em;
+    text-align: left;
     font-size: 1em;
-    width: 20%;
+    background-color:lightcyan;
+    margin: auto;
+    width: 25%;
+}
+.p-item , .S-item , .Hob-item ,.C-item{
+    padding-top: 0.2em;
+    text-align: left;
+    font-size: 1em;
+    width:30%;
     background-color:lightcyan;
     margin: auto;
 }
-.p-item{
-border: 5px dotted black;
-border-radius: 1px dotted red;
-padding: 0.5em;
+.p-item > li > h3  {
+    
+    text-align: left;
+    background-color:lightcyan;
+}
+.Home{
 text-align: center;
-border: 5px;
-font-size: 1em;
-width: 40%;
-background-color:lightcyan;
-margin: auto;
+font-weight: 1000;
+font-size-adjust: inherit;
+background-color:lightcoral;
+font-size: 50px;
+padding: 0.1em;
 }
-.C-item{
-
-
-border: 5px dotted black;
-border-radius: 1px dotted red;
-padding: 0.5em;
-text-align: center;
-border: 5px;
-font-size: 1em;
-width: 32%;
-background-color: lightcyan;
-margin: auto;
+.imgclass{
+    padding-bottom: 1.5em;
+    margin-left: 43%;
 }
-.p-class{
-    text-align: center;
-    margin-left:2em;
-    padding-left: 2em;
+.links > a {
+    margin-left: 80%;
 }
-.img-item{
-    flex-direction: row;
-}
-
